@@ -1,3 +1,5 @@
 q=2
 g=7
 print("Multiplication of 2 with 7 is ": q*g)
+--------
+new comment from the VS code to git hub.
