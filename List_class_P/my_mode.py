@@ -1,7 +1,7 @@
 #modules in python
 
 import math
-import numpy as np
+
 
 def my_add(a,b):
     return a+b
@@ -18,7 +18,7 @@ def my_filter(func,seq):
             out_lst.append(ele)
     return out_lst
 
-print(my_filter(is_even,lst)
+print(my_filter(is_even,lst))
 
 #def main():
  #   my_filter(is_even,lst)
