@@ -1,6 +1,4 @@
-#modules in python
-
-import math
+This is write plus read mode math
 
 
 def my_add(a,b):
@@ -18,10 +16,15 @@ def my_filter(func,seq):
             out_lst.append(ele)
     return out_lst
 
-print(my_filter(is_even,lst))
+print(__name__,type(__name__))
 
-#def main():
- #   my_filter(is_even,lst)
+def main():
+   print(my_filter(is_even,lst))
+
+if __name__=="__main__":
+    main()
+
+
 
 # when we execute the module directly, then __main__ is set to __main__
 # when we import the module directly, then __name__ is set to __module_name__

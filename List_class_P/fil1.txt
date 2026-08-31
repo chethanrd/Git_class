@@ -1,0 +1,4 @@
+Adding the new sentence to replace of all line Extensio of adding to the same file.
+Line 2: Adding second line.
+Line 3: Adding Third line.
+Line 4: Adding Fourth line.
